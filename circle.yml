@@ -1,0 +1,4 @@
+test:
+  override:
+    - mvn test
+    - $(cd gauge && npm test)
