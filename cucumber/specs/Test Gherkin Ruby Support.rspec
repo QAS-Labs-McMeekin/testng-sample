@@ -1,0 +1,14 @@
+FLAGGED FOR ERRRORS
+SyntaxError: Unexpected token do#encoding: utf-8
+
+Given /^${testCase.preCondition}/ do
+  # enter setup code here
+end
+
+When /^${testCase.steps[0].description}$/ do | expectedResult |
+  # Actual Test Execution Code
+end
+
+Then /^${testCase.steps[0].expectedResult$/ do | actualResult |
+  expect actualResult.to_s == "${testCase.steps[0].expectedResult}"
+end
