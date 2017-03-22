@@ -1,0 +1,13 @@
+#encoding: utf-8
+
+Given /^Pre Condition/ do
+  # enter setup code here
+end
+
+When /^Step$/ do | expectedResult |
+  # Actual Test Execution Code
+end
+
+Then /^Result$/ do | actualResult |
+  expect actualResult.to_s == "Result"
+end
