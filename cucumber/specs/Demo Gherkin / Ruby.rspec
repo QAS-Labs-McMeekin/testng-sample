@@ -1,0 +1,13 @@
+#encoding: utf-8
+
+Given /^Must have cucumber gem installed./ do
+  # enter setup code here
+end
+
+When /^Execute Cucumber Test$/ do | expectedResult |
+  # Actual Test Execution Code
+end
+
+Then /^Get results$/ do | actualResult |
+  expect actualResult.to_s == "Get results"
+end
